@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	height: 100vh;
+	background-color: rgb(160, 241, 241);
+}
+
+.cont {
+	margin: 0 1rem;
+	text-align: center;
+	color: #fff;
+}
+
+.cont img {
+	height: 3rem;
+	width: 3rem;
+}
+
+.cont .counter {
+	font-size: 3rem;
+}
+
+.cont p {
+	letter-spacing: 0.2rem;
+}
+
+@media (max-width: 580px) {
+	body {
+		flex-direction: column;
+		gap: 2rem 0;
+	}
+}
